@@ -39,3 +39,7 @@ Opening tag와 Closing tag 사이에 Contents로 구성하여 작성함.
 * `<title>` : 페이지의 제목을 구성한다.
 
 * `<body>` : 웹페이지 상에 웹 유저가 확인할 수 있는 내용은 다 포함되어 있다.
+
+# **2. BeautifulSoup**
+
+python 언어를 통해 html이나 xml 형식의 문서를 python 객체로 변환해주는 모듈로  웹 탐색과 크롤링을 위해 사용한다.
