@@ -1,0 +1,41 @@
+# **1. HTML**
+
+## 1. 기본
+
+우리가 보는 웹페이지가 어떻게 구조화되어 있는지 브라우저로 알 수 있도록 하는 마크업 언어. ***프로그래밍 언어는 아니다.***
+
+Opening tag와 Closing tag 사이에 Contents로 구성하여 작성함. 
+
+* Opening tag(`<>`) : Element를 포함하여 구성하며 효과 적용이 시작된다.
+* Closing tag(`</>`) : / 뒤에 Element를 포함하여 작성한다.
+* Content : Element의 내용(Content)
+* Element : 위에 언급한 세가지를 합쳐놓은 형태로 HTML의 기본 형태이다.
+
+## 2. 문서의 구조
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+  </body>
+</html>
+```
+
+
+
+* `<!DOCTYPE html>` : 문서의 형식을 나타내는 것으로 여기서는 html 형태의 문서로 이루어져 있다.
+
+* `<html>` : 다음 html 문서를 작성하기 앞서 필요한 기본 element이다.
+
+* `<head>` : 메타 데이터를 담고 있는 element로 HTML 페이지의 모든 내용을 담고 있다.
+
+* `<meta charset = "utf-8">` : 구성된 문자열이 utf-8 형식으로 인코딩 되어 있다.
+
+* `<title>` : 페이지의 제목을 구성한다.
+
+* `<body>` : 웹페이지 상에 웹 유저가 확인할 수 있는 내용은 다 포함되어 있다.
