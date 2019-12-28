@@ -137,7 +137,7 @@ $ git remote add origin 깃허브 url
 * 등록된 원격 저장소 목록을 보기 위해서는 아래의 명령어를 활용한다.
 
   ```bash
-  S git remote -v
+  $ git remote -v
   origin  https://github.com/pkwon953/TIL.git (fetch)
   origin  https://github.com/pkwon953/TIL.git (push)
   
