@@ -49,7 +49,10 @@ columns로 처리해서 해당하는 칼럼 숫자로 넘겨 drop 시키거나
 
 #### pivot_table
 
-
+```python
+df.pivot_table([],index=[],columns='',aggfunc=)
+#aggfunc은 default가 mean으로 넘어간다.
+```
 
 pitvot_table을 진행시키면 원래 형태인 DataFrame 객체로 반환하지만, groupby를 진행시키면 groupby 객체를 반환한다.
 
