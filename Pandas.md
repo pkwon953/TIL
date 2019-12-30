@@ -39,3 +39,17 @@ columns로 처리해서 해당하는 칼럼 숫자로 넘겨 drop 시키거나
 
 이름을 직접 넘긴다.(리스트 컴프리헨션 부분은 추후 공부하면서 추가 기재하도록 한다.)
 
+
+
+### 데이터 그룹 연산
+
+#### groupby
+
+
+
+#### pivot_table
+
+
+
+pitvot_table을 진행시키면 원래 형태인 DataFrame 객체로 반환하지만, groupby를 진행시키면 groupby 객체를 반환한다.
+
