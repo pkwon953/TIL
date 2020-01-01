@@ -39,20 +39,64 @@ columns로 처리해서 해당하는 칼럼 숫자로 넘겨 drop 시키거나
 
 이름을 직접 넘긴다.(리스트 컴프리헨션 부분은 추후 공부하면서 추가 기재하도록 한다.)
 
-
+python에서 진행했던 split함수와 동일하게 DataFrame에서도 가능하다. 특히, txt 파일 불러올때 붙어있는 경우가 있는데 이를 split하여 list로 형성한다.
 
 ### 데이터 그룹 연산
 
-#### groupby
+데이터 그룹 연산을 위해 전처리 과정 중에 마무리 작업 중 하나로 각각의 데이터 이어 붙이기, 데이터 분리하기 등이 있다.
+
+#### 데이터 이어 붙이기
+
+ 데이터 이어 붙이는 방법에는 크게 merge, join, concatenate의 방법이 있다.
+
+* merge
+
+> ddd
+
+* join
+
+> ddd
+
+* concatenate
+
+```python
+pd.concat([DataFrame, Series], axis,keys,name)
+```
+
+concat의 함수 인자
+
+object - 이어붙일 pandas 객체이며 필수 인자
+
+axis - 이어붙일 축 방향
+
+join - concat내에 join을 사용 가능하다. 기본값으로 outer 정리를 한다.
+
+join_axes - concat시킬 색인을 리스트로 작성해 지정할 수도 있다.
+
+keys - 계층 색인을 생성하는데 사용된다.
+
+names - 계층 색인의 레벨별 이름 지정이 가능하다.
+
+verify_integrity - 기본값은 False로 중복을 허용한다.
+
+ignore_index - 이어붙인 축의 색인을 유지하지 않고 길이로 새로운 색인을 생성한다.
 
 
 
-#### pivot_table
+
+
+groupby
+
+pivot_table
 
 ```python
 df.pivot_table([],index=[],columns='',aggfunc=)
 #aggfunc은 default가 mean으로 넘어간다.
 ```
+
+aggfunc
+
+
 
 pitvot_table을 진행시키면 원래 형태인 DataFrame 객체로 반환하지만, groupby를 진행시키면 groupby 객체를 반환한다.
 
