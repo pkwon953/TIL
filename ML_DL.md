@@ -70,6 +70,10 @@ Session 돌리는데 항상 초기화 시켜줘야함.
 
 python에서 빈 list 객체 생성처럼 러닝을 위해 tensorflow에서 생성
 
+**zeros**
+
+
+
 **reduce_mean**
 
 말그대로 평균을 나타내는 함수
