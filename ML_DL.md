@@ -78,9 +78,27 @@ DNN - 신경망을 3개 이상 중첩
 
 ### **퍼셉트론**
 
+![image-20200121091855982](images/image-20200121091855982.png)
+
 입력값과 활성화 함수를 사용해 출력 값을 다음으로 넘기는 가장 작은 신경망 단위이다.
 
 기존 퍼셉트론과 달리 은닉층을 추가한 형태가 좌표 평면을 왜곡시켜 시그모이드 함수 사용하여 XOR 문제를 해결한다.
+
+​	딥러닝 또한 데이터를 학습하는 과정에서 퍼셉트론 신경망을 거쳐 Loss function(이하,LF) `y=w * x+b` 의 y를 최소화 시키는 방향으로 연산한다.
+
+​	그림에 표시된 부분들을 간랸하게 설명하자면, Input은 LF에서 x를, Processing unit은 Activation function을 갖고있어 input과 연산돼 output인 loss값 y를 출력하게 된다.
+
+> ```python
+> import keras.models import Sequential
+> from keras.layers.core import Dense, Dropout, Activation
+> from keras.optimizers import SGD
+> from keras.optimizers import Adam
+> import numpy as np 
+> ```
+
+Sequential이라는 단어의 뜻과 같이 model을 설계하는데, 딥러닝의 층을 쌓는데 사용된다.
+
+Dense는 그 쌓는 각각의 층을 나타내는데, 층에 node수를 포함한다. Input의 층을 설정할 경우, input dimension을 설정해야한다. 
 
 ​	퍼셉트론 신경망 수행 흐름
 
