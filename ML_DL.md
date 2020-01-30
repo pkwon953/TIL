@@ -16,6 +16,8 @@ GPU에 맞는 코드를 작성하는 일은 파이썬 인터프리터에 코드 
 
 > hypothesis = x_train*W+b
 
+※ tensorflow.compat.v1을 통해 최신버전이 아닌 하위 버전을 사용할때 사용하는데, tf.disable_v2_behavior() 코드도 작성해주어야 적용된다.
+
 ### **케라스(keras)**
 
 딥러닝을 실행시키기 위한 라이브러리.
