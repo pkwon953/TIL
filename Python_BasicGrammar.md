@@ -12,6 +12,32 @@ Basic Grammar of assert
 > # if one of them is False returns Assertion Error which is kin of safe code.  
 > ```
 
+Basic Grammar of split & sep
+
+> ```python
+> data.split('splitter') #splits data with the known splitter
+> os.path.sep #splits automatically
+> ```
+
+* zip - To concatenate two different data zip function comes in handy.
+
+> ```python
+> a = list(zip([1,1],[2,2]))
+> # To see the zipped data after using zip function convert the data type to list or tuple. If not, type will be printed
+> ```
+
+* get - Used function in dictionary data. Returns value from the insisted key.
+
+> ```python
+> car = {
+>   "brand": "Ford",
+>   "model": "Mustang",
+>   "year": 1964
+> }
+> x= car.get('model')
+> #value for model which the value is Mustang will be printed
+> ```
+
 
 
 
