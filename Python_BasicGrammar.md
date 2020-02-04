@@ -38,7 +38,16 @@ Basic Grammar of split & sep
 > #value for model which the value is Mustang will be printed
 > ```
 
+Creating an Infinite loop
 
+> ```python
+> while True: 
+>   '''stopper += 1
+>   if (stopper >= 10):
+>     break''' # If this code is not written, the loop keeps on going
+> ```
+>
+> 
 
 
 

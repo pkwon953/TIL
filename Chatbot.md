@@ -27,3 +27,12 @@ Google Dilogflow를 통해 챗봇 구현하기
 
 파라미터 설정하는 방법 - 임의로 파라미터 직접 입력 or system entity 할당
 
+복합 Entity 설정
+
+> 1. Default로 선택된 Define Synonym 해제.
+> 2. Entity 2개 작성 설정.
+
+Dialogflow Python으로 가져오기
+
+> 1. OPEN API 가져오는 방식
+> 2. 
