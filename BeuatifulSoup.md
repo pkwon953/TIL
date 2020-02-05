@@ -43,3 +43,8 @@ Opening tag와 Closing tag 사이에 Contents로 구성하여 작성함.
 # **2. BeautifulSoup**
 
 python 언어를 통해 html이나 xml 형식의 문서를 python 객체로 변환해주는 모듈로  웹 탐색과 크롤링을 위해 사용한다.
+
+
+
+# 3. Flask
+

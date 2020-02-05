@@ -47,7 +47,15 @@ Creating an Infinite loop
 >     break''' # If this code is not written, the loop keeps on going
 > ```
 >
-> 
+
+* 'for' statement codes
+
+> ```python
+> for i in range(n):# n is for integers or variables that can be integers
+> # if n<=0 the code does run in the for statement.
+> ```
+
+
 
 
 
