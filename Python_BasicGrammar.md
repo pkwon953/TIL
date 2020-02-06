@@ -55,6 +55,26 @@ Creating an Infinite loop
 > # if n<=0 the code does run in the for statement.
 > ```
 
+* 'join' function - returns list as string with delimiters
+
+> ```python
+> list = ['a', 'b', 'c']
+> print( ",".join(list) ) 
+> # a,b,c
+> #useful code while using list comprehension.
+> ```
+
+* basic grammar for json,xml
+
+> ```python
+> from flask import Flask ,request ,jsonify
+> import json
+> 
+> request.args.get('key')
+> request.form.get('key')
+> ```
+>
+
 
 
 
