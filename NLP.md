@@ -16,3 +16,16 @@ Predictive method
 > count_codePoint('sentence') #단어
 >  ```
 
+Word Embedding
+
+빈도수 기반 푠현은 단어간 의미차를 표현 불가.
+
+단어 자체 의미 자체를 다차원 공간에서 벡터화 필요.
+
+​	단어들 사이의 유사도 측정 가능
+
+​	단어들간의 평균 및 연산을 통해 추론 가능
+
+Continuous Bag of Words
+
+보통 sample의 dimension은 row로 나타나는데 bag of words에선 dimension이 column이 된다.
